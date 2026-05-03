@@ -1,3 +1,5 @@
+from flask import Flask
+app = Flask(__name__)
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
